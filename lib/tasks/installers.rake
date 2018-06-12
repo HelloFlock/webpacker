@@ -10,7 +10,7 @@ installers = {
 }.freeze
 
 dependencies = {
-  "Angular": [:typescript]
+  "Angular" => [:typescript]
 }
 
 namespace :webpacker do
