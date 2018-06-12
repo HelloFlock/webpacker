@@ -1,16 +1,16 @@
 installers = {
-  "Angular": :angular,
-  "Elm": :elm,
-  "React": :react,
-  "Vue": :vue,
-  "Erb": :erb,
-  "Coffee": :coffee,
-  "Typescript": :typescript,
-  "Stimulus": :stimulus
+  "Angular" => :angular,
+  "Elm" => :elm,
+  "React" => :react,
+  "Vue" => :vue,
+  "Erb" => :erb,
+  "Coffee" => :coffee,
+  "Typescript" => :typescript,
+  "Stimulus" => :stimulus
 }.freeze
 
 dependencies = {
-  "Angular": [:typescript]
+  "Angular" => [:typescript]
 }
 
 namespace :webpacker do
