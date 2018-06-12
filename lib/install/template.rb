@@ -1,4 +1,5 @@
 # Install Webpacker
+__dir__ = File.dirname(__FILE__)
 copy_file "#{__dir__}/config/webpacker.yml", "config/webpacker.yml"
 
 puts "Copying webpack core config"
