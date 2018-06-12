@@ -1,5 +1,6 @@
 require "webpacker/configuration"
 
+__dir__ = File.dirname(__FILE__)
 say "Copying vue loader to config/webpack/loaders"
 copy_file "#{__dir__}/loaders/vue.js", Rails.root.join("config/webpack/loaders/vue.js").to_s
 
